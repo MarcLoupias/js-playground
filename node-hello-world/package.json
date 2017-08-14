@@ -1,0 +1,11 @@
+{
+  "name": "node-hello-world",
+  "version": "0.0.0",
+  "description": "a simple nodejs hello world example",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Loupias",
+  "license": "ISC"
+}
