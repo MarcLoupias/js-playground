@@ -15,3 +15,11 @@ Composition.
 One of the most basic example is the use of a `filter` higher order function.
 
 `filter` will takes as parameter a function defining the filter criteria.
+
+[Higher-order functions - Map - Part 2 of Functional Programming in JavaScript](https://www.youtube.com/watch?v=bCqtb-Z5YGQ&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84&index=2)
+
+`map` is another higher order function to work on arrays.
+
+His role is to output an new array from the original array. 
+
+The function passed in argument implements the transformation logic.
