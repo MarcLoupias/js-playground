@@ -11,7 +11,7 @@ class Mammal {
 
 }
 
-let fluffykins = new Mammal();
+const fluffykins = new Mammal();
 assert.deepEqual(fluffykins, {}, 'fluffykins should be an empty object like a litteral empty object');
 
 /*
@@ -24,7 +24,7 @@ class Mammal2 {
     }
 }
 
-let fluffykins2 = new Mammal2('woof!');
+const fluffykins2 = new Mammal2('woof!');
 assert.deepEqual(fluffykins2, {sound: 'woof!'}, 'fluffykins should be an object like a litteral object');
 
 /*
@@ -41,7 +41,7 @@ class Mammal3 {
     }
 }
 
-let fluffykins3 = new Mammal3('woof!');
+const fluffykins3 = new Mammal3('woof!');
 assert.deepEqual(fluffykins3.talk(), 'woof!');
 
 /*
@@ -54,7 +54,7 @@ class Dog extends Mammal3 {
     }
 }
 
-let fluffykins3Dog = new Dog();
+const fluffykins3Dog = new Dog();
 assert.deepEqual(fluffykins3Dog.talk(), 'dog woof!');
 
 /*
