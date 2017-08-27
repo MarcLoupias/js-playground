@@ -13,3 +13,13 @@ If a property does not exist on an object, javascript looks automatically for it
 The property referencing the prototype object for a literal object is named `__proto__`.
 
 On function object, a `prototype` property is created.
+
+[Object.create - Object Creation in JavaScript P6 - FunFunFunction](https://www.youtube.com/watch?v=CDFN1VatiJA&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub&index=6)
+
+`Object.create(obj)` creates a new object with prototype set to a certain object.
+ 
+Douglas Crockford is the author of that method, he has enough influence over the js community to get it builtin 
+javascript directly.
+
+`Object.setPrototypeOf` should not be used to set the prototype of an object, we shoud use `Object.create(obj)` always.
+ 
