@@ -1,4 +1,4 @@
-# `prototype
+# `prototype`
 
 [Prototype basics - Object Creation in JavaScript P3 - FunFunFunction](https://www.youtube.com/watch?v=YkoelSTUy7A&index=3&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub)
 
@@ -7,3 +7,9 @@ Prototype are **delegates**, they do not create a copy of the original object, t
 They don't work as classes.
 
 If a property does not exist on an object, javascript looks automatically for it's prototype.
+
+[__proto__ vs prototype - Object Creation in JavaScript P5 - FunFunFunction](https://www.youtube.com/watch?v=DqGwxR_0d1M&list=PL0zVEGEvSaeHBZFy6Q8731rcwk0Gtuxub&index=5)
+
+The property referencing the prototype object for a literal object is named `__proto__`.
+
+On function object, a `prototype` property is created.
