@@ -7,15 +7,15 @@ function talk() {
     return this.sound;
 }
 
-let animal = {
+const animal = {
     talk: talk
 };
 
-let cat = {
+const cat = {
     sound: 'meow!'
 };
 
-let dog = {
+const dog = {
     sound: 'woof!'
 };
 
@@ -27,7 +27,7 @@ assert.equal(dog.talk(), 'woof!', 'prototype inheritance is about inheritance fr
 
 // We can make an inheritance chain
 
-let prarieDog = {
+const prarieDog = {
     howl: function() {
         return this.sound.toUpperCase();
     }
