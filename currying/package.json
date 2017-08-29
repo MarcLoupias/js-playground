@@ -1,0 +1,7 @@
+{
+  "name": "currying-example",
+  "main": "./currying-example.js",
+  "dependencies": {
+    "lodash": "4.17.4"
+  }
+}
