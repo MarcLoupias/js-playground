@@ -2,6 +2,8 @@
 
 [Dependency Injection basics- Fun Fun Function](https://www.youtube.com/watch?v=0X1Ns2NRfks)
 
+[Dependency Injection without classes - Fun Fun Function](https://www.youtube.com/watch?v=sD94szvFqGw)
+
 **what**
 
 The dependencies of a function are passed as argument to the function. 
