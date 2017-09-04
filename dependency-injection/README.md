@@ -1,5 +1,7 @@
 # dependency injection (in javascript)
 
+[Dependency Injection basics- Fun Fun Function](https://www.youtube.com/watch?v=0X1Ns2NRfks)
+
 **what**
 
 The dependencies of a function are passed as argument to the function. 
