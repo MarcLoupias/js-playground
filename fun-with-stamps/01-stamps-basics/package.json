@@ -1,0 +1,7 @@
+{
+  "name": "01-stamps-basics",
+  "main": "./01-stamps-basics-first-examples.js",
+  "dependencies": {
+    "@stamp/it": "^1.0.1"
+  }
+}
