@@ -2,7 +2,7 @@
 'use strict';
 
 const assert = require('assert');
-const stamp = require('@stamp/it');
+const stamp = require('stampit');
 
 const InitFoo = stamp.compose({
     initializers: [function (foo) {
