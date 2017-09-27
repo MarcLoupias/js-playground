@@ -28,7 +28,7 @@
 
 ## `Object.is`
 
-[`Object.is` MDN definition](ps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
+[`Object.is` MDN definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
 
 ### syntax
 
