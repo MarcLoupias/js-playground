@@ -25,3 +25,23 @@
 #### return value
 
 > The target object.
+
+## `Object.is`
+
+[`Object.is` MDN definition](ps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
+
+### syntax
+
+`Object.is(value1, value2)`
+
+#### parameters
+
+`value1`
+> The first value to compare.
+
+`value2`
+> The second value to compare.
+ 
+#### return value
+
+> A `Boolean` indicating whether or not the two arguments are the same value.
