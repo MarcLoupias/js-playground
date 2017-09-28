@@ -6,6 +6,7 @@
 > [`Object.prototype`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype), 
 > although they may be overridden.
 
+
 ## `Object.assign`
 
 [`Object.assign` MDN definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign)
@@ -26,6 +27,7 @@
 
 > The target object.
 
+
 ## `Object.is`
 
 [`Object.is` MDN definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is)
@@ -45,3 +47,21 @@
 #### return value
 
 > A `Boolean` indicating whether or not the two arguments are the same value.
+
+
+## `Object.entries`
+
+[`Object.entries` MDN definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+### syntax
+
+`Object.entries(obj)`
+
+#### parameters
+
+`obj`
+> The object whose enumerable own property `[key, value]` pairs are to be returned.
+
+#### return value
+
+> An array of the given object's own enumerable property `[key, value]` pairs.

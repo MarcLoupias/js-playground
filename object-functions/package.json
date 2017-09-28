@@ -1,0 +1,7 @@
+{
+  "name": "object-functions",
+  "main": "./object-entries.js",
+  "dependencies": {
+    "object.entries": "^1.0.4"
+  }
+}
