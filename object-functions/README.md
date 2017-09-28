@@ -65,3 +65,22 @@
 #### return value
 
 > An array of the given object's own enumerable property `[key, value]` pairs.
+
+
+## `Object.values`
+
+[`Object.values` MDN definition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/values)
+
+### syntax
+
+`Object.values(obj)`
+
+#### parameters
+
+`obj`
+> The object whose enumerable own property values are to be returned.
+  
+
+#### return value
+
+> An array containing the given object's own enumerable property values.

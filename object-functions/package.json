@@ -2,6 +2,7 @@
   "name": "object-functions",
   "main": "./object-entries.js",
   "dependencies": {
-    "object.entries": "^1.0.4"
+    "object.entries": "^1.0.4",
+    "object.values": "^1.0.4"
   }
 }
