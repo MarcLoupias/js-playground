@@ -1,0 +1,9 @@
+{
+  "name": "ES6-modules-browser",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  }
+}

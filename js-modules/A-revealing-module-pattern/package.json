@@ -1,0 +1,13 @@
+{
+  "name": "revealing-module-pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "AMD",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1"
+  },
+  "dependencies": {
+    "lodash-amd": "4.17.10"
+  }
+}

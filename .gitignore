@@ -95,3 +95,4 @@ unit.test
 *.*~
 *~
 .merge_file*
+bundle.js

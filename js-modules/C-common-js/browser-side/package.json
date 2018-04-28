@@ -1,0 +1,15 @@
+{
+  "name": "common-js-browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx browserify index.js -o bundle.js",
+    "start": "http-server -c-1"
+  },
+  "devDependencies": {
+    "http-server": "0.11.1",
+    "browserify": "^16.1.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
+  }
+}
