@@ -1,10 +1,22 @@
 {
-  "name": "dependency-injection-example",
-  "main": "./dependency-injection-example.js",
-  "devDependencies": {
-    "mocha": "3.5.0"
+  "name": "@js-playground/di-example",
+  "version": "1.0.0",
+  "description": "Dependency injection example",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha dependency-injection-example.js",
+    "run-test-w-node-latest": "npx -p node@latest -- npm test"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
   }
 }
