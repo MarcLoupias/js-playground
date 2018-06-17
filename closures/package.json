@@ -1,0 +1,19 @@
+{
+  "name": "@js-playground/closures",
+  "version": "1.0.0",
+  "description": "Closures examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-closure-basic": "npx -p node@latest -- node closure-basic-example",
+    "run-closure-private": "npx -p node@latest -- node closure-emulating-private-methods"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}

@@ -1,5 +1,6 @@
-#!/usr/bin/env node
 'use strict';
+
+require('log-node-version')();
 
 const assert = require('assert');
 
@@ -69,3 +70,4 @@ assert.equal(counter2.value(), 0);
 counter1.decrement();
 assert.equal(counter1.value(), 1);
 assert.equal(counter2.value(), 0);
+
