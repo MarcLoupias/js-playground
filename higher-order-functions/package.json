@@ -1,0 +1,22 @@
+{
+  "name": "@js-playground/higher-order-functions",
+  "version": "1.0.0",
+  "description": "higher order functions",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-functions-are-values": "npx -p node@latest -- node functions-are-values",
+    "run-filter-example": "npx -p node@latest -- node filter-example",
+    "run-map-example": "npx -p node@latest -- node map-example",
+    "run-reduce-example": "npx -p node@latest -- node reduce-example",
+    "run-reduce-advanced-example": "npx -p node@latest -- node reduce-advanced-example"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}

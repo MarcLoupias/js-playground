@@ -1,5 +1,6 @@
-#!/usr/bin/env node
 'use strict';
+
+require('log-node-version')();
 
 const fs = require('fs');
 
