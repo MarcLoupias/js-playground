@@ -1,8 +1,21 @@
 {
-  "name": "01-stamps-basics",
-  "main": "./01-stamps-basics-first-examples.js",
-  "dependencies": {},
-  "devDependencies": {
+  "name": "@js-playground/01-stamps-basics",
+  "version": "1.0.0",
+  "description": "fun with stamps episode 01 basics",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-basics-first-examples": "npx -p node@latest -- node 01-stamps-basics-first-examples",
+    "run-basics-factory-arguments": "npx -p node@latest -- node 01-stamps-basics-factory-arguments",
+    "run-basics-breaking-down-stamps": "npx -p node@latest -- node 01-stamps-basics-breaking-down-stamps"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1",
     "stampit": "^3.2.1"
   }
 }
