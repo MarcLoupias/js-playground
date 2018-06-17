@@ -1,0 +1,18 @@
+{
+  "name": "@js-playground/es6-arrow-functions",
+  "version": "1.0.0",
+  "description": "ES6 arrow functions examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-arrow-function-example": "npx -p node@latest -- node arrow-function-example"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}
