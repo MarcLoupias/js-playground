@@ -1,7 +1,17 @@
 {
-  "name": "AMD",
+  "name": "@js-playground/AMD",
+  "version": "1.0.0",
+  "description": "js modules : AMD example",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1"
+    "start": "node -v && http-server -c-1"
   },
   "devDependencies": {
     "http-server": "0.11.1"
