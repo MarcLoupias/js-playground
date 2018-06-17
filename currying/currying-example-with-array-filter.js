@@ -1,5 +1,6 @@
-#!/usr/bin/env node
 'use strict';
+
+require('log-node-version')();
 
 const assert = require('assert');
 const _ = require('lodash');

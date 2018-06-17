@@ -1,7 +1,20 @@
 {
-  "name": "currying-example",
-  "main": "./currying-example.js",
+  "name": "@js-playground/currying-example",
+  "version": "1.0.0",
+  "description": "Composition basic examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-currying-example": "npx -p node@latest -- node currying-example",
+    "run-currying-example-with-array-filter": "npx -p node@latest -- node currying-example-with-array-filter"
+  },
   "dependencies": {
-    "lodash": "4.17.4"
+    "log-node-version": "^1.0.1",
+    "lodash": "4.17.10"
   }
 }
