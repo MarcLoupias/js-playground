@@ -1,32 +1,38 @@
 'use strict';
 
-function resolveAfter4Seconds() {
+require('log-node-version')();
+
+function resolveAfter4Seconds(context) {
     return new Promise(resolve => {
         setTimeout(() => {
             const timestamp = new Date().toString();
-            console.log(`${timestamp}`);
+            console.log(`${context} ${timestamp}`);
             resolve('resolved');
         }, 4000);
     });
 }
 
-async function asyncCall() {
-    return resolveAfter4Seconds();
+async function asyncCall(context) {
+    return resolveAfter4Seconds(context);
 }
 
 async function callAllAwait() {
-    const a = await asyncCall();
-    const b = await asyncCall();
+    const timestamp = new Date().toString();
+    console.log(`start callAllAwait at ${timestamp}`);
+
+    const a = await asyncCall('call > AllAwait');
+    const b = await asyncCall('call > AllAwait');
     return a + b;
 }
 
 async function callAllParallelized() {
-    const a = asyncCall();
-    const b = asyncCall();
+    const timestamp = new Date().toString();
+    console.log(`start callAllParallelized at ${timestamp}`);
+
+    const a = asyncCall('call > AllParallelized');
+    const b = asyncCall('call > AllParallelized');
     return await a + await b;
 }
-
-console.log(`starting node version: ${process.version}`);
 
 callAllAwait()
     .then(() => {
