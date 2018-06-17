@@ -1,10 +1,25 @@
 {
-  "name": "ES6-node",
+  "name": "@js-playground/common-js-server",
+  "version": "1.0.0",
+  "description": "js modules : commonJS server example",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
   "main": "index.js",
   "scripts": {
-    "start": "node index"
+    "start": "npx -p node@latest -- node index",
+    "test": "npx -p node@latest -- mocha integration-tests/*.js"
   },
   "dependencies": {
-    "lodash": "4.17.10"
+    "lodash": "4.17.10",
+    "log-node-version": "^1.0.1"
+  },
+  "devDependencies": {
+    "mocha": "5.2.0",
+    "superagent": "3.8.3"
   }
 }
