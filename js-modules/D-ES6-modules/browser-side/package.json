@@ -1,7 +1,16 @@
 {
-  "name": "ES6-modules-browser",
+  "name": "@js-playground/ES6-modules-browser",
+  "version": "1.0.0",
+  "description": "js modules : ES6 modules in the browser example",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
   "scripts": {
-    "start": "http-server -c-1"
+    "start": "node -v && http-server -c-1"
   },
   "devDependencies": {
     "http-server": "0.11.1"
