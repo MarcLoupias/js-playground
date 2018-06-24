@@ -4,7 +4,22 @@ A set of js small projects just to play with the language and learn things.
 
 ## tools
 
-I am currently using **Node.js** `6.11.2` and **npm** `5.3.0`
+I am currently using **Node.js** `6.14.3` and **npm** `6.1.0`
+
+Most of subprojects are using [`npx` tool](https://github.com/zkat/npx) and [npm `node` package](https://registry.npmjs.org/node/) to set the wanted node version, example :
+
+```javascript
+
+// ...
+
+"scripts": {
+    "run-closure-basic": "npx -p node@latest -- node closure-basic-example",
+    "run-closure-private": "npx -p node@latest -- node closure-emulating-private-methods"
+  },
+
+// ...
+
+```
 
 ## sources
 
