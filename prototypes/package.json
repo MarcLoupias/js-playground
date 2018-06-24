@@ -1,0 +1,20 @@
+{
+  "name": "@js-playground/prototypes",
+  "version": "1.0.0",
+  "description": "prototypes usages examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-proto-vs-prototype": "npx -p node@latest -- node proto-vs-prototype",
+    "run-prototype-example": "npx -p node@latest -- node prototype-example",
+    "run-prototype-object-create": "npx -p node@latest -- node prototype-object-create"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}
