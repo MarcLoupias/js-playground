@@ -1,9 +1,8 @@
-#!/usr/bin/env node
 'use strict';
 
+require('log-node-version')();
+
 const assert = require('assert');
-
-
 
 const source = { a: 1 };
 const target = {};

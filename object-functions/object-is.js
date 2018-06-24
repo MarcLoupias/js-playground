@@ -1,17 +1,18 @@
-#!/usr/bin/env node
 'use strict';
+
+require('log-node-version')();
 
 const assert = require('assert');
 
-assert.ok(Object.is('foo', 'foo'));
-assert.ifError(Object.is('foo', 'bar'));
+assert.strictEqual(Object.is('foo', 'foo'), true);
+assert.strictEqual(Object.is('foo', 'bar'), false);
 
-assert.ifError(Object.is([], []));
+assert.strictEqual(Object.is([], []), false);
 const test = { a: 1 };
-assert.ok(Object.is(test, test));
-assert.ok(Object.is(null, null));
-assert.ifError(Object.is({ a: 1 }, { a: 1 }));
+assert.strictEqual(Object.is(test, test), true);
+assert.strictEqual(Object.is(null, null), true);
+assert.strictEqual(Object.is({ a: 1 }, { a: 1 }), false);
 
-assert.ifError(Object.is(0, -0));
-assert.ok(Object.is(0, 0));
-assert.ok(Object.is(NaN, 0/0));
+assert.strictEqual(Object.is(0, -0), false);
+assert.strictEqual(Object.is(0, 0), true);
+assert.strictEqual(Object.is(NaN, 0/0), true);

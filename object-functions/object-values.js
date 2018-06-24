@@ -1,6 +1,6 @@
-#!/usr/bin/env node
-
 'use strict';
+
+require('log-node-version')();
 
 var assert = require('assert');
 var values = require('object.values');

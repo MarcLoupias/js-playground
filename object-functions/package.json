@@ -1,7 +1,22 @@
 {
-  "name": "object-functions",
-  "main": "./object-entries.js",
+  "name": "@js-playground/object-functions",
+  "version": "1.0.0",
+  "description": "object functions examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-object-assign": "npx -p node@latest -- node object-assign",
+    "run-object-entries": "npx -p node@latest -- node object-entries",
+    "run-object-is": "npx -p node@latest -- node object-is",
+    "run-object-values": "npx -p node@latest -- node object-values"
+  },
   "dependencies": {
+    "log-node-version": "^1.0.1",
     "object.entries": "^1.0.4",
     "object.values": "^1.0.4"
   }
