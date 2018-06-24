@@ -1,0 +1,19 @@
+{
+  "name": "@js-playground/new-keyword",
+  "version": "1.0.0",
+  "description": "new keyword examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-new-keyword-example": "npx -p node@latest -- node new-keyword-example",
+    "run-custom-new-keyword-example": "npx -p node@latest -- node custom-new-keyword-example"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}
