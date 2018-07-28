@@ -7,9 +7,9 @@ const assert = require('assert');
 // option object management in ES5
 
 function makeSoundES5(options) {
-    var species = options.species || 'animal';
-    var sound = options.sound;
-    return 'The ' + species + ' says ' + sound + '!';
+    const species = options.species || 'animal';
+    const sound = options.sound;
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -18,9 +18,9 @@ assert.equal(
 );
 
 function makeSoundES6(options) {
-    var { species, sound } = options;
+    let { species, sound } = options;
     species = species || 'animal';
-    return 'The ' + species + ' says ' + sound + '!';
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -31,7 +31,7 @@ assert.equal(
 // destructuring can be written in the function signature with default values
 
 function makeSoundES6inFnSig({ species = 'animal', sound }) {
-    return 'The ' + species + ' says ' + sound + '!';
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -43,8 +43,7 @@ assert.equal(
 
 function makeSoundES6array(props) {
     const [, species, sound] = props;
-
-    return 'The ' + species + ' says ' + sound + '!';
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -56,8 +55,7 @@ assert.equal(
 
 function makeSoundES6arrayForgetComma(props) {
     const [species, sound] = props;
-
-    return 'The ' + species + ' says ' + sound + '!';
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -69,8 +67,7 @@ assert.equal(
 
 function makeSoundES6arrayDefaultValues(props) {
     const [, species = 'gnou', sound = 'yeah'] = props;
-
-    return 'The ' + species + ' says ' + sound + '!';
+    return `The ${ species } says ${ sound }!`;
 }
 
 assert.equal(
@@ -81,7 +78,7 @@ assert.equal(
 // destructuring can be nested
 
 function makeSoundES6nested({ species: { name }, sounds: [, angry] }) {
-    return 'The ' + name + ' yell ' + angry + '!';
+    return `The ${ name } yell ${ angry }!`;
 }
 
 assert.equal(
@@ -92,7 +89,7 @@ assert.equal(
 // destructured props can be renamed locally
 
 function makeSoundES6nestedAndRenamed({ species: { name: littleName }, sounds: [, yellingSound] }) {
-    return 'The ' + littleName + ' yell ' + yellingSound + '!';
+    return `The ${ littleName } yell ${ yellingSound }!`;
 }
 
 assert.equal(
