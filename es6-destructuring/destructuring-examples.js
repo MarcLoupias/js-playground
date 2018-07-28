@@ -7,9 +7,9 @@ const assert = require('assert');
 // option object management in ES5
 
 function makeSoundES5(options) {
-    const species = options.species || 'animal';
-    const sound = options.sound;
-    return `The ${ species } says ${ sound }!`;
+    var species = options.species || 'animal';
+    var sound = options.sound;
+    return 'The ' + species + ' says ' + sound + '!';
 }
 
 assert.equal(
@@ -51,7 +51,7 @@ assert.equal(
     'The animal says woof!'
 );
 
-// ignoring items must be explicit, forgetting comma, leads to errors
+// ignoring items must be explicit, forgetting comma, leads to problems
 
 function makeSoundES6arrayForgetComma(props) {
     const [species, sound] = props;
