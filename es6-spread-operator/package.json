@@ -1,0 +1,20 @@
+{
+  "name": "@js-playground/es6-spread-operator",
+  "version": "1.0.0",
+  "description": "ES6 spread operator examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-spread-operator-for-function-calls-examples": "npx -p node@latest -- node spread-operator-for-function-calls-examples",
+    "run-spread-operator-for-array-literal-examples": "npx -p node@latest -- node spread-operator-for-array-literal-examples",
+    "run-spread-operator-for-object-literal-examples": "npx -p node@latest -- node spread-operator-for-object-literal-examples"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}
