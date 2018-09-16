@@ -1,0 +1,20 @@
+{
+  "name": "@js-playground/ts-interface",
+  "version": "1.0.0",
+  "description": "TypeScript interface",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "compile": "node_modules/.bin/tsc *.ts",
+    "run-interface": "npx -p node@latest -- node greeter.js",
+    "run-interface-w-destructuring": "npx -p node@latest -- node greeter-w-destructuring.js"
+  },
+  "devDependencies": {
+    "typescript": "3.0.3"
+  }
+}
