@@ -1,0 +1,20 @@
+{
+  "name": "@js-playground/handling-files",
+  "version": "1.0.0",
+  "description": "Handling files with Node.js",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "old-school-callbacks": "npx -p node@latest -- node old-school-callbacks",
+    "manual-promisify": "npx -p node@latest -- node manual-promisify",
+    "promisify-using-util-api": "npx -p node@latest -- node promisify-using-util-api",
+    "promisify-using-util-api-with-async-await": "npx -p node@latest -- node promisify-using-util-api-with-async-await",
+    "using-fs-promises-api": "npx -p node@latest -- node using-fs-promises-api"
+  }
+}
