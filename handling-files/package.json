@@ -15,6 +15,7 @@
     "manual-promisify": "npx -p node@latest -- node manual-promisify",
     "promisify-using-util-api": "npx -p node@latest -- node promisify-using-util-api",
     "promisify-using-util-api-with-async-await": "npx -p node@latest -- node promisify-using-util-api-with-async-await",
-    "using-fs-promises-api": "npx -p node@latest -- node using-fs-promises-api"
+    "using-fs-promises-api": "npx -p node@latest -- node using-fs-promises-api",
+    "stream-read-example": "npx -p node@latest -- node stream-read-example"
   }
 }
