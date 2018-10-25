@@ -14,9 +14,10 @@
     "cli": "index.js"
   },
   "scripts": {
-    "commander-basic": "npx -p node@latest -- node commander-basic -p -c toto",
-    "commander-version": "npx -p node@latest -- node commander-basic -v",
-    "test": "npx -p node@latest -- mocha sync-test.js"
+    "start": "node index",
+    "pretest": "chmod 764 index.js",
+    "test": "npx -p node@latest -- mocha sync-test.js",
+    "posttest": "chmod 664 index.js"
   },
   "dependencies": {
     "commander": "^2.19.0"
