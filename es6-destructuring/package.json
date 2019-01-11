@@ -10,7 +10,8 @@
     "npm": ">=5.2.0"
   },
   "scripts": {
-    "run-destructuring-examples": "npx -p node@latest -- node destructuring-examples"
+    "run-destructuring-examples": "npx -p node@latest -- node destructuring-examples",
+    "run-destructuring-and-class": "npx -p node@latest -- node destructuring-and-class"
   },
   "dependencies": {
     "log-node-version": "^1.0.1"
