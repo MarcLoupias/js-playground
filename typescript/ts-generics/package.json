@@ -1,0 +1,20 @@
+{
+  "name": "@js-playground/ts-generics",
+  "version": "1.0.0",
+  "description": "TypeScript generics",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "compile": "node_modules/.bin/tsc",
+    "prestart": "npm run compile",
+    "start": "npx -p node@latest -- node dist/generic-constraints.js"
+  },
+  "devDependencies": {
+    "typescript": "3.2.2"
+  }
+}
