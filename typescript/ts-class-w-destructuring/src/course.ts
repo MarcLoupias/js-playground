@@ -14,7 +14,7 @@ export default class Course {
     public static newCourse(name: any, studentList: any) {
         return new Course(
             name,
-            [...studentList.map((st: any) => Student.newStudent(st.firstName, st.lastName, st.age, st.sex))]
+            [...studentList.map((st: any) => Student.newStudent(st.firstName, st.lastName, st.age, st.sex))] as Student[]
         );
     }
 
