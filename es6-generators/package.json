@@ -1,0 +1,19 @@
+{
+  "name": "@js-playground/es6-generators",
+  "version": "1.0.0",
+  "description": "ES6 generators examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-some-dragons": "npx -p node@latest -- node some-dragons"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1",
+    "random-number": "0.0.9"
+  }
+}
