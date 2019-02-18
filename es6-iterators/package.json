@@ -1,0 +1,22 @@
+{
+  "name": "@js-playground/es6-iterators",
+  "version": "1.0.0",
+  "description": "ES6 iterators examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-for-in": "npx -p node@latest -- node for-in",
+    "run-for-of": "npx -p node@latest -- node for-of",
+    "run-for-of-iterator": "npx -p node@latest -- node for-of-iterator",
+    "run-dragon-army": "npx -p node@latest -- node dragon-army"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1",
+    "random-number": "0.0.9"
+  }
+}
