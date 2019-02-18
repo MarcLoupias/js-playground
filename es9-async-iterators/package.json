@@ -1,0 +1,19 @@
+{
+  "name": "@js-playground/es9-async-iterators",
+  "version": "1.0.0",
+  "description": "ES9 async iterators examples",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "ISC",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.2.0"
+  },
+  "scripts": {
+    "run-customers-sync": "npx -p node@latest -- node customers-sync",
+    "run-customers-async": "npx -p node@latest -- node customers-async"
+  },
+  "dependencies": {
+    "log-node-version": "^1.0.1"
+  }
+}
