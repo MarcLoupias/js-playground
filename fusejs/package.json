@@ -1,0 +1,34 @@
+{
+    "name": "@js-playground/fusejs",
+    "version": "1.0.0",
+    "description": "fusejs test",
+    "author": "marlou <pro@marc-loupias.fr>",
+    "contributors": [
+        {
+            "name": "Marc Loupias",
+            "email": "pro@marc-loupias.fr",
+            "url": "https://github.com/MarcLoupias"
+        }
+    ],
+    "keywords": [],
+    "license": "ISC",
+    "engines": {
+        "node": ">=10.13.0",
+        "npm": ">=6.4.1"
+    },
+    "main": "bin/index.js",
+    "scripts": {
+        "lint-ts": "./node_modules/tslint/bin/tslint -t stylish -c tslint.json src/**/*.ts src/*.ts",
+        "compile": "rimraf 'dist/' && ./node_modules/.bin/tsc --pretty --project 'tsconfig-dev.json'",
+        "prestart": "npm run lint-ts && npm run compile",
+        "start": "node ./dist/index.js"
+    },
+    "dependencies": {
+        "fuse.js": "^3.4.5"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.0",
+        "tslint": "^5.19.0",
+        "typescript": "^3.5.3"
+    }
+}
